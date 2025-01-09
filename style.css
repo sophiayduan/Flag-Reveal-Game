@@ -1,1 +1,44 @@
+body {
+    font-family:"Inter", sans-serif;
+    background-color:aliceblue;
+    margin: 0;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container {
+    width: 100%;
+    max-width:700px;
+    padding:5%;
+    background-color:aqua;
+    border-radius:15px;
+}
+
+.guess-lives {
+    list-style: none;
+
+    display: flex;
+    gap:0.75rem;
+}
+
+.guess-lives li {
+    width:1.5rem;
+    height:1.5rem;
+    background-color:black;
+    border-radius: 100%;
+
+
+}
+/* 
+.guess-lives li :hover {
+    background-color:blue;
+} */
+
+h1 {
+    font-size:3rem;
+    color: #000;
+    justify-self: center;
+}

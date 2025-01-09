@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Flag</h1>
+        <p>A portion of a countries flag is shown, for each incorrect answer more of the flag is revealed. You have 5 guesses. Good Luck!</p>
+        <div class="flag-container" style="width:100%;height:15rem; background-color:aliceblue;">
+            <img id="flag" src="TK" alt="Flag!">
 
+        </div>
+        <ul class="guess-lives">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="user-input">
+            <input type="text" placeholder="Guess away!">
+        </div>
+        <div class="past-guesses">
+            <h4>Your past guesses:</h4>
+        </div>
+    </div>
+</body>
+
+</html>
